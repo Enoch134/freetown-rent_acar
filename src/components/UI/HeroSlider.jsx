@@ -23,7 +23,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">Hire your car here for comforttability</h4>
-            <h1 className="text-light mb-4">Hire Now and Get 50% Off</h1>
+            <h1 className="text-light mb-4">Hire Now for a safe journey</h1>
 
           </div>
         </Container>
@@ -33,7 +33,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
           <h4 className="text-light mb-3">Hire your car here for comforttability</h4>
-            <h1 className="text-light mb-4">Hire Now and Get 50% Off</h1>
+            <h1 className="text-light mb-4">Hire Now for a safe journey</h1>
           </div>
         </Container>
       </div>
@@ -42,7 +42,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
           <h4 className="text-light mb-3">Hire your car here for comforttability</h4>
-            <h1 className="text-light mb-4">Hire Now and Get 50% Off</h1>
+            <h1 className="text-light mb-4">Hire Now for a safe journey</h1>
           </div>
         </Container>
       </div>
@@ -51,7 +51,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
           <h4 className="text-light mb-3">Hire your car here for comforttability</h4>
-            <h1 className="text-light mb-4">Hire Now and Get 50% Off</h1>
+            <h1 className="text-light mb-4">Hire Now for a safe journey</h1>
           </div>
         </Container>
       </div>
@@ -59,7 +59,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
           <h4 className="text-light mb-3">Hire your car here for comforttability</h4>
-            <h1 className="text-light mb-4">Hire Now and Get 50% Off</h1>
+            <h1 className="text-light mb-4">Hire Now for a safe journey</h1>
           </div>
         </Container>
       </div>
@@ -67,7 +67,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
           <h4 className="text-light mb-3">Hire your car here for comforttability</h4>
-            <h1 className="text-light mb-4">Hire Now and Get 50% Off</h1>
+            <h1 className="text-light mb-4">Hire Now for a safe journey</h1>
 
           </div>
         </Container>
@@ -76,7 +76,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
           <h4 className="text-light mb-3">Hire your car here for comforttability</h4>
-            <h1 className="text-light mb-4">Hire Now and Get 50% Off</h1>
+            <h1 className="text-light mb-4">Hire Now for a safe journey</h1>
 
           </div>
         </Container>
@@ -85,7 +85,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
           <h4 className="text-light mb-3">Hire your car here for comforttability</h4>
-            <h1 className="text-light mb-4">Hire Now and Get 50% Off</h1>
+            <h1 className="text-light mb-4">Hire Now for a safe journey</h1>
 
           </div>
         </Container>

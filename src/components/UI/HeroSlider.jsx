@@ -9,8 +9,8 @@ import "../../styles/hero-slider.css";
 const HeroSlider = () => {
   const settings = {
     fade: true,
-    speed: 6000,
-    autoplaySpeed: 6000,
+    speed: 30000,
+    autoplaySpeed: 30000,
     infinite: true,
     autoplay: true,
     slidesToShow: 1,

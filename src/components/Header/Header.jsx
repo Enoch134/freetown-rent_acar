@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Container, Col, Button } from "reactstrap";
 import {  Link,NavLink } from "react-router-dom";
 import "../../styles/header.css";
-import logos from "../../assets/all-images/logos.jpeg"
+import freetownlogo from "../../assets/all-images/freetownlogo.jpeg"
 
 const navLinks = [
   {
@@ -51,26 +51,14 @@ const Header = () => {
             <div className="navigation" ref={menuRef} onClick={toggleMenu}>
               <div className="menu d-flex align-items-center justify-content-center">
 
-              <Col lg="3" md="3" sm="4" className="text-end d-flex align-items-start justify-content-start">
+              <Col lg="3" md="3" sm="4" className="d-flex align-items-start justify-content-start">
               <div className="header__location">
                 <div className="header__location-content">
-                  <img src={logos}  alt="" />
+                  <img src={freetownlogo}  alt="" />
+              
                 </div>
               </div>
                </Col>
-             
-                 {/* {navLinks.map((item, index) => (
-                  <NavLink
-                    to={item.path}
-                    className={(navClass) =>
-                      navClass.isActive ? "nav__active nav__item" : "nav__item"
-                    }
-                    key={index}
-                  >
-                    {item.display}
-                  </NavLink>
-                  
-                ))}   */}
 
 {navLinks.map((item, index) => (
   <div key={index} className="nav__item-container">
@@ -104,7 +92,7 @@ const Header = () => {
             >
               <Button className="header__btn btn">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Book
+                  <i class="ri-phone-line"></i> Contact Us
                 </Link>
               </Button>
                   </Col>

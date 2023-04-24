@@ -6,7 +6,7 @@ import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
 
-const CarDetails = () => {
+const FreetownDetail = () => {
   const { slug } = useParams();
 
   const singleCarItem = carData.find((item) => item.carName === slug);
@@ -119,4 +119,4 @@ const CarDetails = () => {
   );
 };
 
-export default CarDetails;
+export default FreetownDetail;

@@ -1,5 +1,5 @@
 .become__driver {
-  background: linear-gradient(rgb(0, 13, 107, 0.9), rgb(0, 13, 107, 0.9)),
+  background: linear-gradient(rgba(217, 218, 226, 0.9), rgba(25, 25, 26, 0.521)),
     url("../assets/all-images/drive.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -14,9 +14,9 @@
 }
 
 .become__driver-title {
-  font-size: 2.8rem;
-  color: #fff;
-  line-height: 65px;
+  font-size: 1.2rem;
+  color: white;
+  padding-top: 50px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -33,7 +33,7 @@
 
   .become__driver-title {
     font-size: 1.3rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
   }
 
   .become__driver-btn {

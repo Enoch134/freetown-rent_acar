@@ -43,7 +43,7 @@ const BookingForm = () => {
     }
 };
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit} style={{marginRight:"auto",marginLeft:"auto"}}>
       <p>{message}</p>
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
         <input type="text"
@@ -90,12 +90,18 @@ const BookingForm = () => {
           />
       </FormGroup>
 
-      <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="text"
-         placeholder="choose the amount above"
-         value={amount}
-         onChange={(e) =>setAmount(e.target.value)}
-          />
+      <FormGroup 
+      className="booking__form d-inline-block ms-1 mb-4">
+        <select 
+        name="" 
+        id=""
+        value={amount}
+        onChange={(e) =>setAmount(e.target.value)}
+        >
+          <option value="hourly">Hourly</option>
+          <option value="half day">Half Day</option>
+          <option value="full day">Full Day</option>
+        </select>
       </FormGroup>
 
 
@@ -131,7 +137,7 @@ const BookingForm = () => {
         />
       </FormGroup>
       <FormGroup className="form__group">
-          <button type="submit" className="btn find__car-btn">Submit Request</button>
+          <button type="submit" className="btn find__car-btn bg-dark">Submit Request</button>
         </FormGroup>
     </Form>
   );

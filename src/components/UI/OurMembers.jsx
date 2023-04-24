@@ -3,13 +3,15 @@ import "../../styles/our-member.css";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import ava01 from "../../assets/all-images/ava-1.jpg";
-import ava02 from "../../assets/all-images/ava-2.jpg";
+// import ava02 from "../../assets/all-images/ava-2.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
+import logos from "../../assets/all-images/slider-img/Handa CRV.jpg"
 
 const OUR__MEMBERS = [
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
+    name: "Kingston",
+    title:"ceo",
+    experience: "6 years of experience",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -18,18 +20,20 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "David Lisa",
-    experience: "5 years of experience",
+    name: "Musa Enoch",
+    title:"Senior Driver",
+    experience: "2 years of experience",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava02,
+    imgUrl: logos,
   },
 
   {
     name: "Hilton King",
-    experience: "5 years of experience",
+    title:"Secretary",
+    experience: "4 years of experience",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -38,7 +42,8 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "Jhon Doe",
+    name: "Musa Turay",
+    title:"Mnager",
     experience: "5 years of experience",
     fbUrl: "#",
     instUrl: "#",
@@ -77,8 +82,12 @@ const OurMembers = () => {
 
             <h6 className="text-center mb-0 mt-3">{item.name}</h6>
             <p className="section__description text-center">
+              {item.title}
+            </p>
+            <p className="section__description text-center">
               {item.experience}
             </p>
+           
           </div>
         </Col>
       ))}

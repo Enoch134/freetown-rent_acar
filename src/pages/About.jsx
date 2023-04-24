@@ -1,6 +1,6 @@
 import React from "react";
 
-import CommonSection from "../components/UI/CommonSection";
+import AboutCommonSection from "../components/UI/AboutCommonSection";
 import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
@@ -13,7 +13,7 @@ import "../styles/about.css";
 const About = () => {
   return (
     <Helmet title="About">
-      <CommonSection title="About Us" />
+      <AboutCommonSection title="About Us" />
       <AboutSection aboutClass="aboutPage" />
 
       <section className="about__page-section">
@@ -32,17 +32,23 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  At our company, we are committed to providing safe ride solutions for our customers. 
+                  We understand that safety is a top priority when it comes to transportation, 
+                  which is why we have implemented a range of measures to ensure that our rides are as secure as possible.
                 </p>
-
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                All of our drivers go through a rigorous vetting process, which includes thorough 
+                background checks and training on safe driving practices. We also regularly inspect 
+                and maintain our vehicles to make sure they are in top condition. Additionally, 
+                we use advanced technology solutions, such as GPS tracking and panic buttons, 
+                to enhance the safety of our rides and provide peace of mind to our customers.
+                </p>
+             
+                <p className="section__description">
+                 Our safety policies and protocols are regularly reviewed and updated to ensure
+                 that we are meeting the highest standards of safety and professionalism. 
+                 We believe that by prioritizing safety, we can provide our customers 
+                 with a positive and secure experience that meets their transportation needs.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">

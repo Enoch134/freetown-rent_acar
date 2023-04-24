@@ -1,13 +1,13 @@
 .blog__item {
-  border: 1px solid #7c8a972e;
+  border: 1px solid white;
 }
 
 .blog__time {
-  border-top: 1px solid #7c8a972e;
+  border-top: 1px solid white;
 }
 
 .read__more {
-  color: #f9a826;
+  color: hsl(30, 14%, 97%);
   font-weight: 600;
   text-decoration: none;
   font-size: 1rem;

@@ -4,60 +4,40 @@ import HeroSlider from "../components/UI/HeroSlider";
 import Helmet from "../components/Helmet/Helmet";
 
 import { Container, Row, Col } from "reactstrap";
-import FindCarForm from "../components/UI/FindCarForm";
-import AboutSection from "../components/UI/AboutSection";
+// import FindCarForm from "../components/UI/FindCarForm";
+// import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
-import carData from "../assets/data/carData";
-import CarItem from "../components/UI/CarItem";
+// import carData from "../assets/data/carData";
+// import CarItem from "../components/UI/CarItem";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import Testimonial from "../components/UI/Testimonial";
 
-import BlogList from "../components/UI/BlogList";
+// import BlogList from "../components/UI/BlogList";
+// import SevenSeater from "../components/UI/SevenSeater";
+// import FiveSeater from "../components/UI/FiveSeater";
+import OurService from "../components/UI/OurService";
+import SectionBooking from "../components/UI/SectionBooking";
+import AboutHome from "../components/UI/AboutHome";
 
 const Home = () => {
   return (
     <Helmet title="Home">
       {/* ============= hero section =========== */}
-      <section className="p-0 hero__slider-section">
+      <section className="p-0 hero__slider-section z-index-1">
         <HeroSlider />
-
-        <div className="hero__form">
-          <Container>
-            <Row className="form__row">
-              <Col lg="4" md="4">
-                <div className="find__cars-left">
-                  <h2>Find your best car here for a ride</h2>
-                </div>
-              </Col>
-
-              <Col lg="4" md="4">
-                <div className="find__cars-left">
-                  <h2>Find your best car here for a ride</h2>
-                </div>
-              </Col>
-              <Col lg="4" md="4">
-                <div className="find__cars-left">
-                  <h2>Find your best car here for a ride</h2>
-                </div>
-              </Col>
-
-
-              <Col lg="8" md="8" sm="12">
-                {/* <FindCarForm /> */}
-              </Col>
-            </Row>
-          </Container>
-        </div>
       </section>
       {/* =========== about section ================ */}
-      <AboutSection />
+     
+      <div className="mb-300">
+         <AboutHome />
+      </div>
       {/* ========== services section ============ */}
       <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">See our</h6>
-              <h2 className="section__title">Popular Services</h2>
+              <h6 className="section__subtitle text-black">See our</h6>
+              <h2 className="section__title text-black">Popular Services</h2>
             </Col>
 
             <ServicesList />
@@ -65,7 +45,7 @@ const Home = () => {
         </Container>
       </section>
       {/* =========== car offer section ============= */}
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
@@ -78,7 +58,7 @@ const Home = () => {
             ))}
           </Row>
         </Container>
-      </section>
+      </section> */}
       {/* =========== become a driver section ============ */}
       <BecomeDriverSection />
 
@@ -87,8 +67,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-4 text-center">
-              <h6 className="section__subtitle">Our clients says</h6>
-              <h2 className="section__title">Testimonials</h2>
+              <h6 className="section__subtitle text-black">Our clients says</h6>
+              <h2 className="section__title text-black">Testimonials</h2>
             </Col>
 
             <Testimonial />
@@ -97,6 +77,35 @@ const Home = () => {
       </section>
 
       {/* =============== blog section =========== */}
+      <section className="bg-dark">
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5 text-center">
+              <h6 className="section__subtitle text-white">Explore Our Services</h6>
+              <h6 className="section__title text-white">Latest Offers</h6>
+            </Col>
+
+            <OurService />
+          </Row>
+        </Container>
+      </section>
+
+       <SectionBooking/>
+       
+      {/* <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5 text-center">
+              <h6 className="section__subtitle">Explore our blogs</h6>
+              <h2 className="section__title">Latest Blogs</h2>
+            </Col>
+
+            <FiveSeater />
+          </Row>
+        </Container>
+      </section>
+
+
       <section>
         <Container>
           <Row>
@@ -105,10 +114,10 @@ const Home = () => {
               <h2 className="section__title">Latest Blogs</h2>
             </Col>
 
-            <BlogList />
+            <SevenSeater/>
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
   );
 };

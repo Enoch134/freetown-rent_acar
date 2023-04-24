@@ -1,10 +1,10 @@
 import React from "react";
-import { Container, Row, Col} from "reactstrap";
+import { Container, Row, Col,Button } from "reactstrap";
 import {Link} from "react-router-dom"
 import "../../styles/about-section.css";
 import FJ2 from "../../assets/all-images/cars-img/FJ2.jpg";
 
-const AboutSection = ({ aboutClass }) => {
+const AboutHome = ({ aboutClass }) => {
   return (
     <section
       className="about__section"
@@ -52,6 +52,9 @@ const AboutSection = ({ aboutClass }) => {
                 </p>
                 
               </div>
+              <Button className="btn mt-4 bg-dark width-30">
+                <Link to="/about" class="text-decoration-none text-white ">About</Link>{' '}
+               </Button>
             </div>
           </Col>
 
@@ -67,4 +70,4 @@ const AboutSection = ({ aboutClass }) => {
   );
 };
 
-export default AboutSection;
+export default AboutHome;

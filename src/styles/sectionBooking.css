@@ -1,0 +1,61 @@
+.become__driver {
+    background: linear-gradient(rgba(217, 218, 226, 0.9), rgba(25, 25, 26, 0.521)),
+      url("../assets/all-images/drive.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+   
+  }
+  
+  .become__drive button {
+    background: black;
+    font-weight: 600;
+    text-decoration: none;
+  
+  }
+
+  .tnt{
+    background: black;
+  }
+  
+  .become__drive-title {
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: 20px;
+    align-items: center;
+
+
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .become__drive-title {
+      font-size: 1.5rem;
+      line-height: 3rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .become__driver {
+      padding: 50px 0px;
+    }
+  
+    .become__drive-title {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  
+    .become__drive-btn {
+      font-size: 0.8rem !important;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .become__driver-img {
+      display: none;
+    }
+    .become__driver {
+      text-align: center;
+    }
+  }
+  

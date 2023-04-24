@@ -1,5 +1,5 @@
 .footer {
-  background: #000d6b;
+  background: black;
   padding-top: 50px;
   padding-bottom: 15px;
 }
@@ -33,7 +33,7 @@
 }
 
 .quick__link a:hover {
-  color: #f9a826;
+  color: blue;
 }
 
 .footer__link-title {
@@ -67,7 +67,7 @@
 }
 
 .footer__bottom {
-  border-top: 1px solid #7c8a972f;
+  border-top: 1px solid white;
 }
 
 @media only screen and (max-width: 768px) {
